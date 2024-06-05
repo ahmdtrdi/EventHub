@@ -1,0 +1,513 @@
+.landing-page-child,
+.landing-page-item {
+  height: 1px;
+  width: 253.6px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.atau {
+  height: 27px;
+  width: 61px;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: none;
+  flex-shrink: 0;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.masuk-dengan-akun {
+  position: absolute;
+  top: 25px;
+  left: 89px;
+  line-height: 24px;
+  display: inline-block;
+  width: 251.5px;
+  height: 39.7px;
+}
+.apple-id-icon {
+  position: absolute;
+  top: 15.7px;
+  left: 57.3px;
+  border-radius: var(--br-mini);
+  width: 25.7px;
+  height: 33.3px;
+}
+.rectangle-parent {
+  height: 77.6px;
+  width: 376.8px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.buat-akun-baru {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  top: 24.9px;
+  left: 62.4px;
+  line-height: 24px;
+  display: inline-block;
+  width: 251.5px;
+  height: 39.7px;
+}
+.rectangle-group {
+  height: 77.6px;
+  width: 376.8px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.google-sign-up-button,
+.landing-page-inner {
+  position: relative;
+  border-radius: var(--br-mini);
+  display: none;
+}
+.landing-page-inner {
+  height: 77.6px;
+  width: 376.8px;
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.google-sign-up-button {
+  height: 27.7px;
+  width: 25.7px;
+}
+.masuk-dengan-akun1 {
+  height: 40.5px;
+  width: 246.2px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  flex-shrink: 0;
+}
+.gambar-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: linear-burn;
+}
+.eventhub {
+  width: 246.2px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.eventhub-wrapper {
+  width: 599px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-inner,
+.google-sign-up-button1 {
+  position: relative;
+  border-radius: var(--br-mini);
+}
+.frame-inner {
+  height: 77.6px;
+  width: 376.8px;
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.google-sign-up-button1 {
+  height: 27.7px;
+  width: 25.7px;
+  z-index: 1;
+}
+.masuk-dengan-akun2 {
+  align-self: stretch;
+  height: 40.5px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.masuk-dengan-akun-google-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.8px 0 0;
+  box-sizing: border-box;
+  min-width: 160px;
+}
+.frame-wrapper,
+.rectangle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-container {
+  width: 376.8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 22px 37px 9px var(--padding-38xl);
+  gap: 8.6px;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.apple-id-icon1,
+.rectangle-div {
+  position: relative;
+  border-radius: var(--br-mini);
+}
+.rectangle-div {
+  height: 77.6px;
+  width: 376.8px;
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.apple-id-icon1 {
+  height: 33.3px;
+  width: 25.7px;
+  z-index: 1;
+}
+.masuk-dengan-akun3 {
+  align-self: stretch;
+  height: 39.7px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-div,
+.masuk-dengan-akun-apple-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.masuk-dengan-akun-apple-wrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 9.3px 0 0;
+  min-width: 163px;
+}
+.group-div {
+  width: 376.8px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 14px 35px var(--padding-2xs) var(--padding-38xl);
+  gap: 6px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-container,
+.line-div {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 4.6px;
+  max-width: 100%;
+}
+.line-div {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  z-index: 1;
+}
+.line-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-2) 32px 0 0;
+  box-sizing: border-box;
+  min-width: 185px;
+}
+.atau1,
+.frame-child1 {
+  position: relative;
+  z-index: 1;
+}
+.atau1 {
+  height: 27px;
+  width: 61px;
+  font-weight: 700;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-child1 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.frame-group,
+.line-container {
+  display: flex;
+  align-items: flex-start;
+}
+.line-container {
+  width: 252.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-2) 0 0;
+  box-sizing: border-box;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 6.3px;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.frame-child2 {
+  height: 77.6px;
+  width: 376.8px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.buat-akun-baru1 {
+  height: 39.7px;
+  text-decoration: none;
+  color: #fff;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 23px 62px var(--padding-2xs);
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.sudah-mempunyai-akun {
+  height: 57.8px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+}
+.sudah-mempunyai-akun-masuk-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px 0 15px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 14px;
+}
+.frame-parent1 {
+  width: 376.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frame-div,
+.frame-parent,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame-parent {
+  width: 599px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35.1px;
+  font-size: var(--font-size-lg);
+}
+.landing-page,
+.landing-page1 {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
+.landing-page1 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: center;
+  padding: 115px 21px 82.2px var(--padding-xl);
+  box-sizing: border-box;
+  gap: 309px;
+  max-width: 100%;
+  z-index: 2;
+  font-size: 24px;
+}
+.landing-page {
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-lg);
+}
+@media screen and (max-width: 750px) {
+  .landing-page1 {
+    padding-top: 75px;
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frame-parent {
+    gap: var(--gap-lg);
+  }
+  .landing-page1 {
+    gap: 154px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .eventhub {
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .group-div,
+  .rectangle-container,
+  .rectangle-parent1 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent1 {
+    padding-right: var(--padding-xl);
+  }
+  .landing-page1 {
+    gap: 77px;
+    padding-top: 49px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-whitesmoke: #f0f1f4;
+    --color-white: #fff;
+    --color-gray: rgba(255, 255, 255, 0);
+  
+    /* Gaps */
+    --gap-lg: 18px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-2xs: 11px;
+    --padding-3xs-2: 9.2px;
+    --padding-38xl: 57px;
+  
+    /* Border radiuses */
+    --br-mini: 15px;
+  }
+  

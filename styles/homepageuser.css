@@ -1,0 +1,1286 @@
+.homepage-background-icon {
+    width: 100%;
+    height: 706px;
+    position: absolute;
+    margin: 0 !important;
+    top: 1458px;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .beranda,
+  .eventhub {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 40.5px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .eventhub {
+    width: 246.2px;
+  }
+  .beranda {
+    align-self: stretch;
+    --debug_commit: bf4bc93;
+  }
+  .beranda-button-container-child {
+    align-self: stretch;
+    height: 3px;
+    margin-top: -15.5px;
+  }
+  .beranda-button-container {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    --debug_commit: bf4bc93;
+  }
+  .acara,
+  .tentang {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 40.5px;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+    --debug_commit: bf4bc93;
+    z-index: 1;
+    margin-left: -98.2px;
+  }
+  .acara {
+    z-index: 2;
+  }
+  .tentang-acara {
+    align-self: stretch;
+    width: 542.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .profil {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 40.5px;
+    width: 246.2px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .event-hub-profil {
+    align-self: stretch;
+    height: 40.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .jelajahi-dan-daftarkan {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .hero-description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .nikmati-pengalaman-acara {
+    margin: 0;
+    width: 1004px;
+    height: 78px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .hero-content,
+  .hero-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .hero-content {
+    width: 1048px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .hero-content-wrapper {
+    width: 1470px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 3.5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 50px;
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .gambar-1 {
+    align-self: stretch;
+    height: 982px;
+    position: relative;
+    display: none;
+    z-index: 3;
+  }
+  .homepage-child {
+    width: 1512px;
+    height: 489.5px;
+    position: absolute;
+    margin: 0 !important;
+    top: 718.5px;
+    right: -3px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .frame-child {
+    height: 536px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 401px;
+    z-index: 1;
+  }
+  .frame-item {
+    height: 70px;
+    width: 209px;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-khaki-100);
+    display: none;
+  }
+  .eventhub1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    color: var(--color-black);
+    text-align: center;
+    z-index: 2;
+  }
+  .event-hub-logo,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 18px var(--padding-6xl) var(--padding-lgi) var(--padding-7xl);
+    background-color: var(--color-khaki-100);
+    align-self: stretch;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    z-index: 1;
+  }
+  .rectangle-group:hover,
+  .rectangle-parent:hover {
+    background-color: var(--color-khaki-200);
+  }
+  .event-hub-logo {
+    height: 548px;
+    width: 209px;
+    flex-direction: column;
+  }
+  .frame-inner {
+    height: 536px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    min-width: 401px;
+    z-index: 1;
+  }
+  .vector-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 0 5.5px 1px;
+    box-sizing: border-box;
+    gap: 35.5px;
+    max-width: 100%;
+  }
+  .acara-unggulan {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .menampilkan-acara-teratas {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-13xl);
+  }
+  .featured-events-header,
+  .featured-events-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .featured-events-title {
+    width: 982px;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+    --debug_commit: bf4bc93;
+  }
+  .featured-events-header {
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .left-icon {
+    width: 47.1px;
+    height: 46.1px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    --debug_commit: bf4bc93;
+    z-index: 1;
+  }
+  .featured-events-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 145px;
+    max-width: 100%;
+  }
+  .featured-events {
+    width: 1295px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 51px 179.4px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .event-card-background {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: calc(100% + 665px);
+    width: 214.3px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: -214.76px;
+    bottom: -665px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    z-index: 1;
+  }
+  .konser-blackpink {
+    margin: 0;
+    height: 84px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    --debug_commit: bf4bc93;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .event-card-title {
+    align-self: stretch;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .event-card-details,
+  .manado-sulawesi-utara {
+    flex-shrink: 0;
+    --debug_commit: bf4bc93;
+    max-width: 100%;
+  }
+  .manado-sulawesi-utara {
+    margin: 0;
+    width: 432px;
+    position: relative;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 3;
+  }
+  .event-card-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rabu-04-juni {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    --debug_commit: bf4bc93;
+    z-index: 2;
+  }
+  .event-card,
+  .event-card-date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .event-card-date {
+    width: 432px;
+    flex-direction: column;
+    padding: 114px 0 0;
+    margin-left: -388px;
+    text-align: right;
+    font-size: var(--font-size-xl);
+  }
+  .event-card {
+    width: 919px;
+    flex-direction: row;
+    padding: 45px 31px 10.5px 42px;
+    position: relative;
+    min-height: 255px;
+    text-align: left;
+    font-size: 56px;
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .acara-mendatang,
+  .lihat-dan-daftar {
+    align-self: stretch;
+    position: relative;
+  }
+  .acara-mendatang {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .lihat-dan-daftar {
+    font-size: var(--font-size-13xl);
+  }
+  .upcoming-events-header,
+  .upcoming-events-title {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .upcoming-events-title {
+    width: 982px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .upcoming-events-header {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .event-item-backgrounds {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .acara-mahasiswa {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-item-titles,
+  .event-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .event-item-titles {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 342px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .event-items-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .konser-coldplay {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items1,
+  .konser-coldplay-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .konser-coldplay-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 342px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .event-items-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .expo-universitas {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items2,
+  .expo-universitas-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .expo-universitas-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 342px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .event-items-inner {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .vaksin-covid-19 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items3,
+  .vaksin-covid-19-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vaksin-covid-19-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 342px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .rectangle-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .lari-bersama {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items4,
+  .lari-bersama-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .lari-bersama-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 354px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .event-items-child1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .olahraga-sepeda {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items5,
+  .olahraga-sepeda-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .olahraga-sepeda-wrapper {
+    width: 274px;
+    flex-direction: row;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .event-items5 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 354px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .event-items-child2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pameran-budaya {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .event-items6,
+  .pameran-budaya-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pameran-budaya-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-34xl);
+  }
+  .event-items6 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 354px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .event-items-child3 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pameran-teknologi {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .pameran-teknologi-wrapper {
+    flex-direction: row;
+    padding: 0 47px 0 46px;
+  }
+  .event-grid,
+  .event-items7,
+  .pameran-teknologi-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .event-items7 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 354px;
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .event-grid {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 15px;
+    box-sizing: border-box;
+    gap: 69px 45.7px;
+    min-height: 780px;
+  }
+  .lihat-semua,
+  .rectangle-div {
+    position: relative;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    height: 83px;
+    width: 443px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-khaki-100);
+    display: none;
+  }
+  .lihat-semua {
+    height: 45px;
+    flex: 1;
+    font-size: var(--font-size-9xl);
+    font-weight: 500;
+    font-family: var(--font-dm-sans);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+  }
+  .rectangle-group,
+  .view-all-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lgi) 0 var(--padding-lgi) 2px;
+    background-color: var(--color-khaki-100);
+    width: 443px;
+    border-radius: var(--br-11xl);
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .view-all-button {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-7xl) 11px var(--padding-xl);
+  }
+  .dibuat-oleh {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .created-by-title {
+    width: 961px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .avatar-images-one {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .avatar-pair-one {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 27px 0 var(--padding-18xl);
+  }
+  .delon-jutan {
+    align-self: stretch;
+    height: 77px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .avatar-pair-one-parent {
+    width: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .avatars-two-circle,
+  .more-avatars-icon {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    min-height: 130px;
+  }
+  .avatar-image-pair-two,
+  .avatar-images-two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .avatar-image-pair-two {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .avatar-images-two {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 33px 0 var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .ahmad-triadi,
+  .rafael-lalujan {
+    height: 77px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    min-width: 126px;
+  }
+  .avatar-pair-two,
+  .more-avatar-names {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .more-avatar-names {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 69px;
+  }
+  .avatar-pair-two {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-5xl);
+    max-width: 100%;
+  }
+  .eventhub2 {
+    width: 246.2px;
+    position: relative;
+    line-height: 24px;
+    font-weight: 700;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .avatar-pair-two-parent,
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .footer {
+    width: 428.2px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+  }
+  .avatar-pair-two-parent {
+    width: 457px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 94px;
+  }
+  .ellipse-icon {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .ellipse-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 35px;
+  }
+  .regina-george {
+    align-self: stretch;
+    height: 77px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .creator-avatars,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-parent {
+    width: 212px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .creator-avatars {
+    flex-direction: row;
+    justify-content: center;
+    gap: 61px;
+    max-width: 100%;
+  }
+  .creators {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 45px;
+  }
+  .created-by,
+  .creators,
+  .upcoming-events-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .created-by {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 24px 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+  }
+  .upcoming-events-content {
+    width: 1341px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 81px;
+  }
+  .homepage,
+  .upcoming-events {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .upcoming-events {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .homepage {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 115px 0 156px;
+    gap: 118.5px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .featured-events-content {
+      gap: 72px;
+    }
+    .featured-events {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .event-hub-profil {
+      display: none;
+    }
+    .jelajahi-dan-daftarkan {
+      font-size: 40px;
+    }
+    .acara-unggulan {
+      font-size: var(--font-size-9xl);
+    }
+    .menampilkan-acara-teratas {
+      font-size: var(--font-size-7xl);
+    }
+    .konser-blackpink {
+      font-size: 45px;
+    }
+    .manado-sulawesi-utara {
+      font-size: 29px;
+    }
+    .event-card {
+      padding-left: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .acara-mendatang {
+      font-size: var(--font-size-9xl);
+    }
+    .lihat-dan-daftar {
+      font-size: var(--font-size-7xl);
+    }
+    .creator-avatars {
+      flex-wrap: wrap;
+      gap: var(--gap-11xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .vector-parent {
+      gap: var(--gap-lg);
+    }
+    .featured-events-content {
+      gap: 36px;
+    }
+    .event-grid {
+      gap: 23px;
+    }
+    .creator-avatars {
+      gap: 15px;
+    }
+    .creators {
+      gap: 22px;
+    }
+    .upcoming-events-content {
+      gap: 40px;
+    }
+    .homepage {
+      gap: 59px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .jelajahi-dan-daftarkan {
+      font-size: 30px;
+    }
+    .nikmati-pengalaman-acara {
+      font-size: var(--font-size-base);
+    }
+    .frame-child {
+      min-width: 100%;
+    }
+    .eventhub1 {
+      font-size: var(--font-size-lgi);
+    }
+    .frame-inner {
+      min-width: 100%;
+    }
+    .acara-unggulan {
+      font-size: var(--font-size-2xl);
+    }
+    .menampilkan-acara-teratas {
+      font-size: var(--font-size-lgi);
+    }
+    .featured-events-content {
+      gap: var(--gap-lg);
+    }
+    .featured-events {
+      padding-bottom: 117px;
+      box-sizing: border-box;
+    }
+    .konser-blackpink {
+      font-size: 34px;
+    }
+    .manado-sulawesi-utara {
+      font-size: 22px;
+    }
+    .rabu-04-juni {
+      font-size: var(--font-size-base);
+    }
+    .acara-mendatang {
+      font-size: var(--font-size-2xl);
+    }
+    .acara-mahasiswa,
+    .lihat-dan-daftar {
+      font-size: var(--font-size-lgi);
+    }
+    .event-item-titles {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .konser-coldplay {
+      font-size: var(--font-size-lgi);
+    }
+    .konser-coldplay-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .expo-universitas {
+      font-size: var(--font-size-lgi);
+    }
+    .expo-universitas-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .vaksin-covid-19 {
+      font-size: var(--font-size-lgi);
+    }
+    .vaksin-covid-19-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .lari-bersama {
+      font-size: var(--font-size-lgi);
+    }
+    .lari-bersama-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .olahraga-sepeda,
+    .pameran-budaya {
+      font-size: var(--font-size-lgi);
+    }
+    .pameran-budaya-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .pameran-teknologi {
+      font-size: var(--font-size-lgi);
+    }
+    .pameran-teknologi-wrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .delon-jutan,
+    .dibuat-oleh {
+      font-size: var(--font-size-lgi);
+    }
+    .avatar-image-pair-two {
+      flex-wrap: wrap;
+    }
+    .ahmad-triadi,
+    .rafael-lalujan {
+      font-size: var(--font-size-lgi);
+    }
+    .more-avatar-names {
+      flex-wrap: wrap;
+      gap: 34px;
+    }
+    .eventhub2 {
+      font-size: var(--font-size-base);
+      line-height: 19px;
+    }
+    .avatar-pair-two-parent {
+      gap: 47px;
+    }
+    .regina-george {
+      font-size: var(--font-size-lgi);
+    }
+    .upcoming-events-content {
+      gap: var(--gap-xl);
+    }
+    .homepage {
+      gap: var(--gap-11xl);
+    }
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-lgi: 19px;
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-9xl: 28px;
+    --font-size-13xl: 32px;
+    --font-size-7xl: 26px;
+    --font-size-16xl: 35px;
+    --font-size-2xl: 21px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-khaki-100: #ffe38f;
+    --color-khaki-200: #e6c975;
+  
+    /* Gaps */
+    --gap-11xl: 30px;
+    --gap-xl: 20px;
+    --gap-5xl: 24px;
+    --gap-xs: 12px;
+    --gap-9xs: 4px;
+    --gap-lg: 18px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-6xl: 25px;
+    --padding-18xl: 37px;
+    --padding-7xl: 26px;
+    --padding-lgi: 19px;
+    --padding-34xl: 53px;
+    --padding-2xl: 21px;
+  
+    /* Border radiuses */
+    --br-11xl: 30px;
+    --br-3xs: 10px;
+    --br-xl: 20px;
+  }

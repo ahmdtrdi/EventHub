@@ -1,0 +1,206 @@
+.gambar-1-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    mix-blend-mode: linear-burn;
+  }
+  
+  .eventhub {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 700;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  
+  .eventhub-wrapper,
+  .frame-child {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .eventhub-wrapper {
+    width: 377px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 66px 0 65px;
+  }
+  
+  .frame-child {
+    height: 77.6px;
+    width: 376.8px;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+    display: none;
+  }
+  
+  .masuk-sebagai-pengguna {
+    height: 40px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .frame-item,
+  .rectangle-parent {
+    border-radius: var(--br-mini);
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .rectangle-parent {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 48px 10px 53px;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    --debug-commit: bf4bc93;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .frame-item {
+    height: 77.6px;
+    width: 376.8px;
+    position: relative;
+    display: none;
+  }
+  
+  .masuk-sebagai-admin {
+    height: 39.7px;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+    display: inline-block;
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .rectangle-group {
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    padding: 23px 61px 12px 63px;
+    background-color: var(--color-gray);
+    align-self: stretch;
+    border-radius: var(--br-mini);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    --debug-commit: bf4bc93;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 1;
+  }
+  
+  .rectangle-group:hover {
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+  }
+  
+  .admin-user,
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .frame-parent {
+    width: 377px;
+    align-items: flex-start;
+    gap: 35.1px;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+  }
+  
+  .admin-user {
+    width: 100%;
+    height: 982px;
+    position: relative;
+    background-color: #f0f1f4;
+    overflow: hidden;
+    align-items: center;
+    padding: 115px var(--padding-xl) 392.7px 21px;
+    box-sizing: border-box;
+    gap: 260px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 24px;
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  
+  @media screen and (max-width: 450px) {
+    .eventhub {
+      font-size: 19px;
+      line-height: 19px;
+    }
+    .eventhub-wrapper,
+    .rectangle-group,
+    .rectangle-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .frame-parent {
+      gap: 18px;
+    }
+    .admin-user {
+      gap: 130px;
+    }
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: rgba(255, 255, 255, 0);
+  
+    /* Paddings */
+    --padding-xl: 20px;
+  
+    /* Border radiuses */
+    --br-mini: 15px;
+  }
+  
