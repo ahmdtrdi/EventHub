@@ -24,7 +24,7 @@
 .beranda,
 .tentang {
   flex: 1;
-  debug_commit: bf4bc93;
+  --debug_commit: bf4bc93;
 }
 .acara,
 .tentang {
@@ -193,7 +193,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
-  debug_commit: bf4bc93;
+  --debug_commit: bf4bc93;
   row-gap: 20px;
 }
 .frame-wrapper1 {
@@ -225,7 +225,7 @@
   padding: 0 0 40px;
   box-sizing: border-box;
   flex-shrink: 0;
-  debug_commit: bf4bc93;
+  --debug_commit: bf4bc93;
   z-index: 1;
 }
 .delonjutangmailcom,

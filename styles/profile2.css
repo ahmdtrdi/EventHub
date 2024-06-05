@@ -352,7 +352,7 @@
     text-align: center;
     flex-shrink: 0;
     transform: rotate(-0.2deg);
-    debug_commit: bf4bc93;
+    --debug_commit: bf4bc93;
     max-width: 134%;
     z-index: 1;
   }
