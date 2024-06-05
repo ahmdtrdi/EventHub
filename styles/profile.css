@@ -1,0 +1,386 @@
+.acara,
+.beranda,
+.eventhub,
+.tentang {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 40.5px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.eventhub {
+  width: 246.2px;
+}
+.acara,
+.beranda,
+.tentang {
+  flex: 1;
+  debug_commit: bf4bc93;
+}
+.acara,
+.tentang {
+  z-index: 1;
+  margin-left: -98.2px;
+}
+.acara {
+  z-index: 2;
+}
+.beranda-parent {
+  margin: 0;
+  width: 542.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.profil {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 40.5px;
+  width: 246.2px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.eventhub-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.profile-picture-icon {
+  width: 323px;
+  position: relative;
+  border-radius: 50%;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.profile-picture-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 23px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.edit-profil {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 246px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 26px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.edit-profil-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 24px;
+}
+.delon-jutan {
+  margin: 0;
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-container,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  gap: 38px;
+}
+.frame-group {
+  width: 668px;
+  gap: 17px;
+  max-width: 100%;
+}
+.frame-wrapper {
+  width: 1370px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.jl-kembang-no20 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 207px;
+}
+.juni-2005 {
+  flex: 1;
+  position: relative;
+  line-height: 15.4px;
+}
+.address-month {
+  height: 40px;
+  width: 318px;
+  position: absolute;
+  margin: 0 !important;
+  right: -317px;
+  bottom: -20.6px;
+  line-height: 24px;
+  display: inline-block;
+}
+.juni-2005-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 207px;
+}
+.frame-wrapper1,
+.jl-kembang-no20-parent {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.jl-kembang-no20-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  debug_commit: bf4bc93;
+  row-gap: 20px;
+}
+.frame-wrapper1 {
+  width: 636px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 17.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.delonjutangmailcom1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.delonjutangmailcom {
+  width: 634px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 40px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.delonjutangmailcom,
+.frame-div,
+.frame-parent {
+  display: flex;
+  max-width: 100%;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 212px;
+  font-size: var(--font-size-13xl);
+}
+.frame-parent {
+  width: 1441px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 36.5px;
+  box-sizing: border-box;
+  gap: 57px;
+  text-align: center;
+  font-size: 64px;
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
+.footer {
+  width: 246.2px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.footer-wrapper {
+  width: 1499px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.profil-pengguna1 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 65px 0 129px 2px;
+  box-sizing: border-box;
+  gap: 195.5px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1400px) {
+  .frame-div {
+    flex-wrap: wrap;
+    gap: 106px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .eventhub-parent {
+    display: none;
+  }
+}
+@media screen and (max-width: 825px) {
+  .delon-jutan {
+    font-size: 51px;
+  }
+  .frame-container {
+    gap: 19px;
+  }
+  .address-month,
+  .jl-kembang-no20,
+  .juni-2005 {
+    font-size: var(--font-size-7xl);
+    line-height: 19px;
+  }
+  .jl-kembang-no20-parent {
+    flex-wrap: wrap;
+  }
+  .delonjutangmailcom1 {
+    font-size: var(--font-size-7xl);
+    line-height: 24px;
+  }
+  .frame-div {
+    gap: 53px;
+  }
+  .frame-parent {
+    gap: 28px;
+  }
+  .profil-pengguna1 {
+    gap: 98px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edit-profil {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .delon-jutan {
+    font-size: 38px;
+  }
+  .address-month,
+  .delonjutangmailcom1,
+  .jl-kembang-no20,
+  .juni-2005 {
+    font-size: var(--font-size-lgi);
+    line-height: 14px;
+  }
+  .delonjutangmailcom1 {
+    line-height: 18px;
+  }
+  .frame-div {
+    gap: 26px;
+  }
+  .footer {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .profil-pengguna1 {
+    gap: 49px;
+  }
+}
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-13xl: 32px;
+    --font-size-lgi: 19px;
+    --font-size-7xl: 26px;
+  
+    /* Colors */
+    --color-white: #fff;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+  }

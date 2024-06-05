@@ -1,0 +1,553 @@
+.left-icon {
+    width: 40.2px;
+    height: 40.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .formulir-pendaftaran1 {
+    margin: 0;
+    width: 1036px;
+    position: relative;
+    font-size: inherit;
+    line-height: 54.3px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .formulir-pendaftaran-wrapper,
+  .left-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .left-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 13.4px;
+  }
+  .isi-data-diri {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .isi-data-diri-anda-pada-formul-wrapper {
+    width: 1032px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 52px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 32px;
+  }
+  .frame-parent {
+    width: 1167px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32.3px;
+    max-width: 100%;
+  }
+  .formulir-pendaftaran-inner {
+    width: 1377px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child {
+    width: 1512px;
+    height: 1603px;
+    position: relative;
+    border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+    background-color: var(--color-dimgray);
+    display: none;
+    max-width: 100%;
+  }
+  .konser-blackpink,
+  .nama-lengkap {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .konser-blackpink {
+    margin: 0;
+    width: 802px;
+    height: 84px;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    flex-shrink: 0;
+  }
+  .nama-lengkap {
+    width: 635.9px;
+    line-height: 20px;
+  }
+  .frame-item,
+  .nama-lengkap-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-item {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: var(--padding-10xl-7) var(--padding-18xl) var(--padding-12xl);
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .nama-lengkap-parent {
+    flex-direction: column;
+    padding: 0 0 2.1px;
+    gap: 29.6px;
+  }
+  .alamat-email {
+    width: 635.9px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .alamat-email-parent,
+  .frame-inner {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-inner {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: 27.5px var(--padding-18xl) 33.2px;
+    box-sizing: border-box;
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .alamat-email-parent {
+    flex-direction: column;
+    gap: 24.3px;
+  }
+  .nomor-hp {
+    width: 635.9px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-input,
+  .nomor-hp-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: 27.6px var(--padding-18xl) 33.1px;
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .nomor-hp-parent {
+    flex-direction: column;
+    padding: 0 0 6.4px;
+    gap: 24.2px;
+  }
+  .umur {
+    width: 635.9px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-child1,
+  .umur-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child1 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: var(--padding-10xl-7) var(--padding-18xl) var(--padding-12xl);
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .umur-parent {
+    flex-direction: column;
+    padding: 0 0 4.5px;
+    gap: 26.1px;
+  }
+  .jenis-kelamin {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-child2,
+  .frame-div,
+  .jenis-kelamin-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .jenis-kelamin-wrapper {
+    width: 644.4px;
+    flex-direction: row;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .frame-child2,
+  .frame-div {
+    align-self: stretch;
+  }
+  .frame-child2 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: var(--padding-10xl-6) var(--padding-18xl) var(--padding-12xl-1);
+    box-sizing: border-box;
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .frame-div {
+    flex-direction: column;
+    gap: 23.9px;
+  }
+  .alamat {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .alamat-wrapper,
+  .frame-child3,
+  .frame-container,
+  .frame-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .alamat-wrapper {
+    width: 644.4px;
+    flex-direction: row;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .frame-child3,
+  .frame-container,
+  .frame-parent1 {
+    align-self: stretch;
+  }
+  .frame-child3 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    padding: var(--padding-10xl-6) var(--padding-18xl) var(--padding-12xl-1);
+    box-sizing: border-box;
+    font-family: var(--font-dm-sans);
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+    min-width: 250px;
+    z-index: 1;
+  }
+  .frame-container,
+  .frame-parent1 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .frame-container {
+    gap: 34.3px;
+  }
+  .rectangle-icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .daftar,
+  .vector-parent {
+    position: relative;
+    z-index: 1;
+  }
+  .daftar {
+    font-size: 30px;
+    font-family: var(--font-dm-sans);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .vector-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 22px var(--padding-xl) 23px;
+    background-color: transparent;
+    width: 279px;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .frame-wrapper1,
+  .vector-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper1 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 21px 0 var(--padding-xl);
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 80.3px;
+    max-width: 100%;
+  }
+  .formulir-pendaftaran,
+  .frame-wrapper,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-wrapper {
+    width: 802px;
+    flex-direction: row;
+    padding: 0 27px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+  }
+  .formulir-pendaftaran,
+  .rectangle-parent {
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+    background-color: var(--color-dimgray);
+    padding: 126px 335px 177px;
+    gap: 109px;
+    max-width: 100%;
+    font-size: 56px;
+  }
+  .formulir-pendaftaran {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    padding: 89.8px 0 0;
+    gap: 169.9px;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 64px;
+  }
+  @media screen and (max-width: 1200px) {
+    .rectangle-parent {
+      padding: 82px 167px 115px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .formulir-pendaftaran1 {
+      font-size: 51px;
+      line-height: 58px;
+    }
+    .isi-data-diri {
+      font-size: 26px;
+      line-height: 24px;
+    }
+    .isi-data-diri-anda-pada-formul-wrapper {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .konser-blackpink {
+      font-size: 45px;
+    }
+    .daftar {
+      font-size: 24px;
+    }
+    .rectangle-parent {
+      padding-top: 53px;
+      padding-bottom: 75px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-parent {
+      gap: 16px;
+    }
+    .frame-container {
+      gap: 17px;
+    }
+    .frame-group {
+      gap: 40px;
+    }
+    .rectangle-parent {
+      gap: 54px;
+      padding-left: var(--padding-64xl);
+      padding-right: var(--padding-64xl);
+      box-sizing: border-box;
+    }
+    .formulir-pendaftaran {
+      gap: 85px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .formulir-pendaftaran1 {
+      font-size: 38px;
+      line-height: 43px;
+    }
+    .isi-data-diri {
+      font-size: 19px;
+      line-height: 18px;
+    }
+    .konser-blackpink {
+      font-size: 34px;
+    }
+    .alamat,
+    .alamat-email,
+    .jenis-kelamin,
+    .nama-lengkap,
+    .nomor-hp,
+    .umur {
+      font-size: var(--font-size-3xl);
+      line-height: 16px;
+    }
+    .daftar {
+      font-size: 18px;
+    }
+    .frame-group {
+      gap: 20px;
+    }
+    .rectangle-parent {
+      gap: 27px;
+      padding: 34px var(--padding-xl) 49px;
+      box-sizing: border-box;
+    }
+    .formulir-pendaftaran {
+      gap: 42px;
+    }
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-9xl: 28px;
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-dimgray: #503850;
+    --color-white: #fff;
+    --color-gray: rgba(255, 255, 255, 0.3);
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-64xl: 83px;
+    --padding-10xl-6: 29.6px;
+    --padding-18xl: 37px;
+    --padding-12xl-1: 31.1px;
+    --padding-9xs: 4px;
+    --padding-10xl-7: 29.7px;
+    --padding-12xl: 31px;
+    --padding-7xl: 26px;
+  
+    /* Border radiuses */
+    --br-21xl: 40px;
+    --br-3xs: 10px;
+  }
