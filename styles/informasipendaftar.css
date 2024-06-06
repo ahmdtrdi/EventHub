@@ -1,0 +1,871 @@
+.left-icon {
+    height: 40.2px;
+    width: 40.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+  }
+  .informasi-pendaftar1 {
+    margin: 0;
+    height: 82px;
+    width: 982px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .form-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 21px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-23xl);
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-inner,
+  .frame-item,
+  .line-div,
+  .third-user-contact-details {
+    position: absolute;
+    top: 260px;
+    left: 43px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1267px;
+    height: 1px;
+    z-index: 1;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-inner,
+  .line-div,
+  .third-user-contact-details {
+    top: 317px;
+    z-index: 3;
+  }
+  .frame-child1,
+  .frame-child2,
+  .line-div,
+  .third-user-contact-details {
+    top: 377px;
+    z-index: 1;
+  }
+  .frame-child1,
+  .frame-child2,
+  .line-div {
+    top: 434px;
+  }
+  .frame-child1,
+  .frame-child2 {
+    top: 491px;
+  }
+  .frame-child2 {
+    top: 551px;
+  }
+  .form-fields-child {
+    height: 350px;
+    width: 1px;
+    position: relative;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 4;
+  }
+  .name-field-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1267px;
+    height: 1px;
+    z-index: 1;
+  }
+  .no {
+    align-self: stretch;
+    font-weight: 700;
+  }
+  .div,
+  .div1,
+  .no {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .div {
+    align-self: stretch;
+  }
+  .div1 {
+    flex: 1;
+  }
+  .number-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-9xs);
+  }
+  .div2,
+  .empty-placeholder {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .empty-placeholder {
+    align-self: stretch;
+  }
+  .div2 {
+    flex: 1;
+  }
+  .email-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-9xs);
+  }
+  .empty-pair {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .contact-details {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .div3,
+  .empty-placeholder1,
+  .empty-placeholder2,
+  .first-user-contact1,
+  .nomor-hp,
+  .third-user {
+    align-self: stretch;
+    height: 40.5px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .div3,
+  .empty-placeholder1,
+  .empty-placeholder2,
+  .first-user-contact1,
+  .third-user {
+    height: 42px;
+  }
+  .div3,
+  .empty-placeholder1,
+  .empty-placeholder2,
+  .third-user {
+    height: 40.5px;
+  }
+  .data-row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mid-5);
+  }
+  .email-value-container {
+    align-self: stretch;
+    gap: var(--gap-lgi-5);
+  }
+  .email-value-container,
+  .first-user-contact,
+  .second-user-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .first-user-contact {
+    align-self: stretch;
+    gap: var(--gap-mini);
+  }
+  .second-user-fields {
+    position: absolute;
+    top: 14px;
+    left: 551px;
+    width: 246.2px;
+    gap: var(--gap-mid-5);
+  }
+  .abcgmailcom,
+  .abcgmailcom1,
+  .abcgmailcom2,
+  .abcgmailcom3,
+  .email {
+    align-self: stretch;
+    height: 40.5px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .abcgmailcom,
+  .abcgmailcom1,
+  .abcgmailcom2,
+  .abcgmailcom3 {
+    height: 44px;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .abcgmailcom1,
+  .abcgmailcom2,
+  .abcgmailcom3 {
+    height: 40.5px;
+  }
+  .second-user {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base-5);
+  }
+  .abcgmailcom4 {
+    align-self: stretch;
+    height: 40.5px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .first-user-container,
+  .third-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .third-user-container {
+    align-self: stretch;
+    gap: var(--gap-lgi-5);
+  }
+  .first-user-container {
+    position: absolute;
+    top: 13px;
+    left: 328px;
+    width: 246.2px;
+    gap: 15.3px;
+  }
+  .alamat {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .email-pair {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 45px 0 44px;
+  }
+  .tikala,
+  .tuminting {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .tuminting {
+    align-self: stretch;
+  }
+  .tikala {
+    flex: 1;
+  }
+  .location-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-9xs);
+  }
+  .bahu,
+  .jati {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .jati {
+    align-self: stretch;
+  }
+  .bahu {
+    flex: 1;
+  }
+  .name-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-9xs);
+  }
+  .bahu1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .fourth-user-container {
+    position: absolute;
+    top: 14px;
+    left: 1032px;
+    width: 246.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .name-input-child {
+    align-self: stretch;
+    width: 1px;
+    position: relative;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 4;
+  }
+  .nama {
+    width: 246.2px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    z-index: 1;
+  }
+  .ahmad-triadi,
+  .delon-jutan,
+  .galnoel-rindengan,
+  .rafael-lalujan {
+    align-self: stretch;
+    height: 42px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .ahmad-triadi,
+  .galnoel-rindengan,
+  .rafael-lalujan {
+    height: 40.5px;
+  }
+  .first-user-fields {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base-5);
+  }
+  .cindy-indiarto {
+    align-self: stretch;
+    height: 40.5px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .multiple-names {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-lgi-5);
+  }
+  .multiple-names,
+  .name-input-box,
+  .second-user-contact-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .name-input-box {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+  .second-user-contact-details {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-xl);
+    text-align: left;
+  }
+  .contact-labels,
+  .placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-labels {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .placeholder {
+    flex: 1;
+    justify-content: flex-end;
+    padding: 0 0 5.5px;
+  }
+  .name-input1 {
+    position: absolute;
+    top: 0;
+    left: 73px;
+    width: 275.2px;
+    height: 349px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .email-field-child,
+  .email-field-child1,
+  .email-field-inner,
+  .email-field-item {
+    position: absolute;
+    top: 0;
+    left: 328px;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1px;
+    height: 350px;
+    z-index: 4;
+  }
+  .email-field-child1,
+  .email-field-inner,
+  .email-field-item {
+    left: 766px;
+  }
+  .email-field-child1,
+  .email-field-inner {
+    left: 1256px;
+  }
+  .email-field-child1 {
+    left: 570px;
+  }
+  .umur {
+    align-self: stretch;
+    height: 41px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .div4,
+  .div5,
+  .empty-placeholder3,
+  .empty-placeholder4,
+  .first-user-contact2 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    z-index: 2;
+  }
+  .age-value-options,
+  .fifth-user {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-15xl-5);
+  }
+  .fifth-user {
+    gap: var(--gap-10xl);
+  }
+  .third-user-fields {
+    flex: 1;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .entry-content,
+  .third-user-fields,
+  .umur-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .entry-content {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 76px 0 73px;
+  }
+  .umur-parent {
+    position: absolute;
+    top: 14px;
+    left: 712px;
+    width: 246px;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .gender-input-child {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1px;
+    height: 350px;
+    z-index: 4;
+  }
+  .jenis-kelamin,
+  .l {
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .jenis-kelamin {
+    align-self: stretch;
+    font-weight: 700;
+  }
+  .l {
+    flex: 1;
+  }
+  .second-user-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xl);
+  }
+  .l1,
+  .l2,
+  .l3,
+  .p {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    z-index: 1;
+  }
+  .other-genders {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-15xl-5);
+  }
+  .gender-options-container {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-10xl);
+  }
+  .empty-pair1,
+  .gender-options-container,
+  .jenis-kelamin-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .empty-pair1 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-11xl);
+  }
+  .jenis-kelamin-parent {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 37px;
+  }
+  .gender-input-item {
+    position: absolute;
+    top: 0;
+    left: 157px;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 1px;
+    height: 350px;
+    z-index: 4;
+  }
+  .email-field,
+  .gender-input {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  .gender-input {
+    bottom: 0;
+    left: 897px;
+    width: 158px;
+  }
+  .email-field {
+    left: 10px;
+    width: 100%;
+  }
+  .name-field {
+    height: 349px;
+    flex: 1;
+    position: relative;
+    min-width: 837px;
+    max-width: 100%;
+  }
+  .form-fields {
+    position: absolute;
+    top: 203px;
+    left: 42px;
+    width: 1289.2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    row-gap: 20px;
+  }
+  .konser-blackpink {
+    margin: 0;
+    position: absolute;
+    top: 95px;
+    left: 171px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    width: 1004px;
+    height: 52px;
+    z-index: 1;
+  }
+  .rectangle-parent,
+  .right-panel {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .rectangle-parent {
+    height: 717px;
+    position: relative;
+    border-radius: var(--br-23xl);
+    background-color: var(--color-gainsboro);
+    font-size: var(--font-size-xl);
+  }
+  .right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 75px;
+    box-sizing: border-box;
+    gap: 49px;
+    text-align: center;
+    font-size: 48px;
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  .eventhub {
+    width: 246.2px;
+    position: relative;
+    line-height: 24px;
+    font-weight: 700;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .footer,
+  .informasi-pendaftar {
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .informasi-pendaftar {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 89.8px 85px 156px;
+    box-sizing: border-box;
+    gap: 97px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+  }
+  @media screen and (max-width: 1200px) {
+    .rectangle-parent {
+      height: auto;
+      min-height: 717;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .informasi-pendaftar1 {
+      font-size: 38px;
+    }
+    .form-fields-child {
+      width: 100%;
+      height: 1px;
+    }
+    .name-field {
+      min-width: 100%;
+    }
+    .konser-blackpink {
+      font-size: 32px;
+    }
+    .right-panel {
+      padding-bottom: 49px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .right-panel {
+      gap: var(--gap-5xl);
+    }
+    .informasi-pendaftar {
+      gap: 48px;
+      padding-left: var(--padding-23xl);
+      padding-right: var(--padding-23xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .informasi-pendaftar1 {
+      font-size: 29px;
+    }
+    .abcgmailcom,
+    .abcgmailcom1,
+    .abcgmailcom2,
+    .abcgmailcom3,
+    .abcgmailcom4,
+    .ahmad-triadi,
+    .alamat,
+    .bahu,
+    .bahu1,
+    .cindy-indiarto,
+    .delon-jutan,
+    .div,
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5,
+    .email,
+    .empty-pair,
+    .empty-placeholder,
+    .empty-placeholder1,
+    .empty-placeholder2,
+    .empty-placeholder3,
+    .empty-placeholder4,
+    .first-user-contact1,
+    .first-user-contact2,
+    .galnoel-rindengan,
+    .jati,
+    .jenis-kelamin,
+    .l,
+    .l1,
+    .l2,
+    .l3,
+    .nama,
+    .no,
+    .nomor-hp,
+    .p,
+    .rafael-lalujan,
+    .third-user,
+    .tikala,
+    .tuminting,
+    .umur {
+      font-size: var(--font-size-base);
+      line-height: 19px;
+    }
+    .konser-blackpink {
+      font-size: 24px;
+    }
+    .right-panel {
+      padding-bottom: 32px;
+      box-sizing: border-box;
+    }
+    .eventhub {
+      font-size: var(--font-size-base);
+      line-height: 19px;
+    }
+    .informasi-pendaftar {
+      gap: var(--gap-5xl);
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-dm-sans: "DM Sans";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gainsboro: rgba(217, 217, 217, 0.1);
+  
+    /* Gaps */
+    --gap-5xl: 24px;
+    --gap-10xl: 29px;
+    --gap-15xl-5: 34.5px;
+    --gap-13xl: 32px;
+    --gap-mini: 15px;
+    --gap-lgi-5: 19.5px;
+    --gap-base-5: 15.5px;
+    --gap-mid-5: 17.5px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-23xl: 42px;
+    --padding-11xl: 30px;
+    --padding-9xs: 4px;
+  
+    /* Border radiuses */
+    --br-23xl: 42px;
+  }  
