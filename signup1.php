@@ -1,3 +1,41 @@
+<?php
+include 'config.php';
+session_start();
+ 
+if (isset($_SESSION['email'])) {
+    header("Location: index.php");
+    exit();
+}
+ 
+if (isset($_POST['submit'])) {
+    $email = $_POST['email'];
+    $password = hash('sha256', $_POST['password']); // Hash the input password using SHA-256
+    $cpassword = hash('sha256', $_POST['cpassword']); // Hash the input confirm password using SHA-256
+ 
+    if ($password == $cpassword) {
+        $sql = "SELECT * FROM users WHERE email='$email'";
+        $result = mysqli_query($conn, $sql);
+        if (!$result->num_rows > 0) {
+            $sql = "INSERT INTO users (email, password)
+                    VALUES ('$email', '$password')";
+            $result = mysqli_query($conn, $sql);
+            if ($result) {
+                echo "<script>alert('Selamat, registrasi berhasil!')</script>";
+                $email = "";
+                $_POST['password'] = "";
+                $_POST['cpassword'] = "";
+            } else {
+                echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
+            }
+        } else {
+            echo "<script>alert('Woops! Email Sudah Terdaftar.')</script>";
+        }
+    } else {
+        echo "<script>alert('Password Tidak Sesuai')</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,8 +91,21 @@
               <div class="rectangle-div"></div>
               <a href="signup2.html" class="buat-akun">Buat Akun</a>
             </div>
-          </div>          
-          <div class="divider-parent">
+          </div> 
+
+          <div class="divider">
+            <div class="divider-inner">
+              <div class="line-div"></div>
+            </div>
+            <div class="alternative-login">
+              <a href="signin.html" class="atau-daftar-dengan">Sudah mempunyai akun? Masuk</a>
+            </div>
+            <div class="divider-child">
+              <div class="frame-child1"></div>
+            </div>
+          </div>
+
+          <!-- <div class="divider-parent">
             <div class="divider">
               <div class="divider-inner">
                 <div class="line-div"></div>
@@ -72,7 +123,8 @@
                 <img class="social-login-buttons-item" loading="lazy" alt="" src="./Image/Vector.png" />
               </div>
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>

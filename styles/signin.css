@@ -301,6 +301,11 @@
   --debug-commit: : bf4bc93;
   z-index: 1;
 }
+/* tambahan */
+.atau-masuk-dengan-wrapper a {
+  color: #fff;
+  text-decoration: none;
+}
 .atau-masuk-dengan-wrapper {
   display: flex;
   flex-direction: column;

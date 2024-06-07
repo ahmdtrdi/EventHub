@@ -1,3 +1,30 @@
+<?php
+include 'config.php';
+session_start();
+ 
+if (isset($_SESSION['email'])) {
+    header("Location: berhasil_login.php");
+    exit();
+}
+ 
+if (isset($_POST['submit'])) {
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $password = hash('sha256', $_POST['password']); // Hash the input password using SHA-256
+ 
+    $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
+    $result = mysqli_query($conn, $sql);
+ 
+    if ($result->num_rows > 0) {
+        $row = mysqli_fetch_assoc($result);
+        $_SESSION['email'] = $row['email'];
+        header("Location: berhasil_login.php");
+        exit();
+    } else {
+        echo "<script>alert('Email atau password Anda salah. Silakan coba lagi!')</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,7 +82,20 @@
               </div>
             </form>
           </div>
+
           <div class="frame-parent1">
+            <div class="line-wrapper">
+              <div class="line-div"></div>
+            </div>
+            <div class="atau-masuk-dengan-wrapper">
+              <a href="signup1.php" class="atau-masuk-dengan">Belum mempunyai akun? Daftar</a>
+            </div>
+            <div class="line-container">
+              <div class="frame-child1"></div>
+            </div>
+          </div>
+
+          <!-- <div class="frame-parent1">
             <div class="line-wrapper">
               <div class="line-div"></div>
             </div>
@@ -66,6 +106,7 @@
               <div class="frame-child1"></div>
             </div>
           </div>
+
           <div class="frame-wrapper2">
             <div class="frame-parent2">
               <img
@@ -81,7 +122,8 @@
                 src="./Image/Vector.png"
               />
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>

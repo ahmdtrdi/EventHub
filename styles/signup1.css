@@ -324,6 +324,12 @@
     box-sizing: border-box;
     min-width: 128px;
   }
+  /* Tambahan */
+  .alternative-login a {
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+  }
   .atau-daftar-dengan {
     margin-left: -6px;
     width: 202.5px;
