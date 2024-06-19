@@ -1,631 +1,742 @@
 .eventhub {
-    position: absolute;
-    top: 2198px;
-    left: 631px;
-    line-height: 24px;
-    font-weight: 700;
-    display: inline-block;
-    width: 246.2px;
-    height: 24px;
-  }
-  .gambar-1,
-  .gambar-1-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-  }
-  .event-list-decoration {
-    position: absolute;
-    top: 355px;
-    left: 146px;
-    border-radius: 42px;
-    background-color: rgba(217, 217, 217, 0.1);
-    width: 1215px;
-    height: 544px;
-  }
-  .no {
-    position: absolute;
-    top: 491px;
-    left: 199px;
-    line-height: 24px;
-    font-weight: 700;
-    display: inline-block;
-    width: 64px;
-    height: 24px;
-  }
-  .acara,
-  .event-details,
-  .jumlah-pendaftar,
-  .status-acara,
-  .tanggal-acara {
-    position: absolute;
-    top: 491px;
-    left: 297px;
-    line-height: 24px;
-    display: inline-block;
-    width: 246.2px;
-    height: 40.5px;
-  }
-  .event-details,
-  .jumlah-pendaftar,
-  .status-acara,
-  .tanggal-acara {
-    top: 492px;
-    left: 807px;
-    height: 24px;
-  }
-  .event-details,
-  .status-acara,
-  .tanggal-acara {
-    left: 1071px;
-  }
-  .event-details,
-  .tanggal-acara {
-    top: 491px;
-    left: 543px;
-    height: 40.5px;
-  }
-  .event-details {
-    top: 549px;
-    left: 199px;
-    width: 64px;
-    height: 24px;
-  }
-  .aktif,
-  .aktif1,
-  .aktif2,
-  .aktif3,
-  .juni-2024,
-  .konser-blackpink,
-  .orang {
-    position: absolute;
-    top: 550px;
-    line-height: 24px;
-    display: inline-block;
-    width: 246px;
-    height: 24px;
-  }
-  .konser-blackpink {
-    left: 297px;
-    text-align: left;
-  }
-  .aktif,
-  .aktif1,
-  .aktif2,
-  .aktif3,
-  .juni-2024,
-  .orang {
-    left: 807px;
-  }
-  .aktif,
-  .aktif1,
-  .aktif2,
-  .aktif3,
-  .juni-2024 {
-    left: 1071px;
-  }
-  .aktif1,
-  .aktif2,
-  .aktif3,
-  .juni-2024 {
-    top: 608px;
-  }
-  .aktif2,
-  .aktif3,
-  .juni-2024 {
-    top: 661px;
-  }
-  .aktif3,
-  .juni-2024 {
-    top: 720px;
-  }
-  .juni-2024 {
-    top: 548px;
-    left: 543px;
-    height: 44px;
-  }
-  .acara-mahasiswa,
-  .event-details1,
-  .juni-20241,
-  .orang1 {
-    position: absolute;
-    line-height: 24px;
-    display: inline-block;
-    height: 24px;
-  }
-  .event-details1 {
-    top: 606px;
-    left: 199px;
-    width: 64px;
-  }
-  .acara-mahasiswa,
-  .juni-20241,
-  .orang1 {
-    top: 607px;
-    width: 246.2px;
-  }
-  .acara-mahasiswa {
-    left: 297px;
-    text-align: left;
-  }
-  .juni-20241,
-  .orang1 {
-    left: 807px;
-  }
-  .juni-20241 {
-    top: 606px;
-    left: 543px;
-    height: 40.5px;
-  }
-  .event-details2,
-  .juni-20242,
-  .konser-coldplay,
-  .orang2 {
-    position: absolute;
-    line-height: 24px;
-    display: inline-block;
-    height: 24px;
-  }
-  .event-details2 {
-    top: 660px;
-    left: 199px;
-    width: 64px;
-  }
-  .juni-20242,
-  .konser-coldplay,
-  .orang2 {
-    top: 661px;
-    width: 246.2px;
-  }
-  .konser-coldplay {
-    left: 297px;
-    text-align: left;
-  }
-  .juni-20242,
-  .orang2 {
-    left: 807px;
-  }
-  .juni-20242 {
-    top: 660px;
-    left: 543px;
-    height: 40.5px;
-  }
-  .event-details3,
-  .expo-university,
-  .juni-20243,
-  .orang3 {
-    position: absolute;
-    line-height: 24px;
-    display: inline-block;
-    height: 24px;
-  }
-  .event-details3 {
-    top: 722px;
-    left: 199px;
-    width: 64px;
-  }
-  .expo-university,
-  .juni-20243,
-  .orang3 {
-    top: 723px;
-    width: 246.2px;
-  }
-  .expo-university {
-    left: 297px;
-    text-align: left;
-  }
-  .juni-20243,
-  .orang3 {
-    left: 807px;
-  }
-  .juni-20243 {
-    top: 722px;
-    left: 543px;
-    height: 40.5px;
-  }
-  .event-details4,
-  .event-details5,
-  .event-details6,
-  .event-details7,
-  .event-details8,
-  .event-details9 {
-    position: absolute;
-    top: 477px;
-    left: 189px;
-    border-top: 1px solid var(--color-white);
-    box-sizing: border-box;
-    width: 1134px;
-    height: 1px;
-  }
-  .event-details5,
-  .event-details6,
-  .event-details7,
-  .event-details8,
-  .event-details9 {
-    top: 534px;
-  }
-  .event-details6,
-  .event-details7,
-  .event-details8,
-  .event-details9 {
-    top: 591px;
-  }
-  .event-details7,
-  .event-details8,
-  .event-details9 {
-    top: 651px;
-  }
-  .event-details8,
-  .event-details9 {
-    top: 708px;
-  }
-  .event-details9 {
-    top: 765px;
-  }
-  .event-details10,
-  .event-details11,
-  .event-details12,
-  .event-details13,
-  .event-details14,
-  .event-details15 {
-    position: absolute;
-    top: 477px;
-    left: 189px;
-    border-right: 1px solid var(--color-white);
-    box-sizing: border-box;
-    width: 1px;
-    height: 289px;
-  }
-  .event-details11,
-  .event-details12,
-  .event-details13,
-  .event-details14,
-  .event-details15 {
-    left: 272px;
-  }
-  .event-details12,
-  .event-details13,
-  .event-details14,
-  .event-details15 {
-    left: 543px;
-  }
-  .event-details13,
-  .event-details14,
-  .event-details15 {
-    left: 1322px;
-  }
-  .event-details14,
-  .event-details15 {
-    left: 1071px;
-  }
-  .event-details15 {
-    left: 795px;
-  }
-  .acara-mendatang,
-  .atur-dan-tambah {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    font-family: inherit;
-    display: inline-block;
-    width: 982px;
-  }
+  position: absolute;
+  top: 2198px;
+  left: 631px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  width: 246.2px;
+  height: 24px;
+}
+
+.gambar-1,
+.gambar-1-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.event-list-decoration {
+  position: relative;
+  /* top: 355px; */
+  /* left: 146px; */
+  border-radius: 42px;
+  /* background-color: rgba(217, 217, 217, 0.1); */
+  width: 1215px;
+  height: 544px;
+}
+
+.no {
+  position: absolute;
+  top: 491px;
+  left: 199px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  width: 64px;
+  height: 24px;
+}
+
+.acara,
+.event-details,
+.jumlah-pendaftar,
+.status-acara,
+.tanggal-acara {
+  position: absolute;
+  top: 491px;
+  left: 297px;
+  line-height: 24px;
+  display: inline-block;
+  width: 246.2px;
+  height: 40.5px;
+}
+
+.event-details,
+.jumlah-pendaftar,
+.status-acara,
+.tanggal-acara {
+  top: 492px;
+  left: 807px;
+  height: 24px;
+}
+
+.event-details,
+.status-acara,
+.tanggal-acara {
+  left: 1071px;
+}
+
+.event-details,
+.tanggal-acara {
+  top: 491px;
+  left: 543px;
+  height: 40.5px;
+}
+
+.event-details {
+  top: 549px;
+  left: 199px;
+  width: 64px;
+  height: 24px;
+}
+
+.aktif,
+.aktif1,
+.aktif2,
+.aktif3,
+.juni-2024,
+.konser-blackpink,
+.orang {
+  position: absolute;
+  top: 550px;
+  line-height: 24px;
+  display: inline-block;
+  width: 246px;
+  height: 24px;
+}
+
+.konser-blackpink {
+  left: 297px;
+  text-align: left;
+}
+
+.aktif,
+.aktif1,
+.aktif2,
+.aktif3,
+.juni-2024,
+.orang {
+  left: 807px;
+}
+
+.aktif,
+.aktif1,
+.aktif2,
+.aktif3,
+.juni-2024 {
+  left: 1071px;
+}
+
+.aktif1,
+.aktif2,
+.aktif3,
+.juni-2024 {
+  top: 608px;
+}
+
+.aktif2,
+.aktif3,
+.juni-2024 {
+  top: 661px;
+}
+
+.aktif3,
+.juni-2024 {
+  top: 720px;
+}
+
+.juni-2024 {
+  top: 548px;
+  left: 543px;
+  height: 44px;
+}
+
+.acara-mahasiswa,
+.event-details1,
+.juni-20241,
+.orang1 {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+  height: 24px;
+}
+
+.event-details1 {
+  top: 606px;
+  left: 199px;
+  width: 64px;
+}
+
+.acara-mahasiswa,
+.juni-20241,
+.orang1 {
+  top: 607px;
+  width: 246.2px;
+}
+
+.acara-mahasiswa {
+  left: 297px;
+  text-align: left;
+}
+
+.juni-20241,
+.orang1 {
+  left: 807px;
+}
+
+.juni-20241 {
+  top: 606px;
+  left: 543px;
+  height: 40.5px;
+}
+
+.event-details2,
+.juni-20242,
+.konser-coldplay,
+.orang2 {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+  height: 24px;
+}
+
+.event-details2 {
+  top: 660px;
+  left: 199px;
+  width: 64px;
+}
+
+.juni-20242,
+.konser-coldplay,
+.orang2 {
+  top: 661px;
+  width: 246.2px;
+}
+
+.konser-coldplay {
+  left: 297px;
+  text-align: left;
+}
+
+.juni-20242,
+.orang2 {
+  left: 807px;
+}
+
+.juni-20242 {
+  top: 660px;
+  left: 543px;
+  height: 40.5px;
+}
+
+.event-details3,
+.expo-university,
+.juni-20243,
+.orang3 {
+  position: absolute;
+  line-height: 24px;
+  display: inline-block;
+  height: 24px;
+}
+
+.event-details3 {
+  top: 722px;
+  left: 199px;
+  width: 64px;
+}
+
+.expo-university,
+.juni-20243,
+.orang3 {
+  top: 723px;
+  width: 246.2px;
+}
+
+.expo-university {
+  left: 297px;
+  text-align: left;
+}
+
+.juni-20243,
+.orang3 {
+  left: 807px;
+}
+
+.juni-20243 {
+  top: 722px;
+  left: 543px;
+  height: 40.5px;
+}
+
+.event-details4,
+.event-details5,
+.event-details6,
+.event-details7,
+.event-details8,
+.event-details9 {
+  position: absolute;
+  top: 477px;
+  left: 189px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1134px;
+  height: 1px;
+}
+
+.event-details5,
+.event-details6,
+.event-details7,
+.event-details8,
+.event-details9 {
+  top: 534px;
+}
+
+.event-details6,
+.event-details7,
+.event-details8,
+.event-details9 {
+  top: 591px;
+}
+
+.event-details7,
+.event-details8,
+.event-details9 {
+  top: 651px;
+}
+
+.event-details8,
+.event-details9 {
+  top: 708px;
+}
+
+.event-details9 {
+  top: 765px;
+}
+
+.event-details10,
+.event-details11,
+.event-details12,
+.event-details13,
+.event-details14,
+.event-details15 {
+  position: absolute;
+  top: 477px;
+  left: 189px;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 289px;
+}
+
+.event-details11,
+.event-details12,
+.event-details13,
+.event-details14,
+.event-details15 {
+  left: 272px;
+}
+
+.event-details12,
+.event-details13,
+.event-details14,
+.event-details15 {
+  left: 543px;
+}
+
+.event-details13,
+.event-details14,
+.event-details15 {
+  left: 1322px;
+}
+
+.event-details14,
+.event-details15 {
+  left: 1071px;
+}
+
+.event-details15 {
+  left: 795px;
+}
+
+.acara-mendatang,
+.atur-dan-tambah {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-family: inherit;
+  display: inline-block;
+  width: 982px;
+}
+
+.acara-mendatang {
+  top: 0;
+  font-size: inherit;
+  font-weight: 700;
+  height: 45px;
+}
+
+.atur-dan-tambah {
+  top: 49px;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+}
+
+.acara-mendatang-parent {
+  position: absolute;
+  top: 165px;
+  left: 268px;
+  width: 982px;
+  height: 91px;
+  font-size: 35px;
+}
+
+.frame-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-khaki);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.atur-acara {
+  position: absolute;
+  top: 13.1px;
+  left: 0.7px;
+  font-weight: 500;
+  display: inline-block;
+  width: 242.8px;
+  height: 31px;
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 788px;
+  left: 1078.1px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-khaki);
+  width: 243.9px;
+  height: 57.1px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+}
+
+.tabel-statistik-acara {
+  margin: 0;
+  position: absolute;
+  top: 397px;
+  left: 252px;
+  font-size: var(--font-size-9xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 1004px;
+  height: 37px;
+}
+
+.frame-parent {
+  position: absolute;
+  top: 1135px;
+  left: 0;
+  width: 100%;
+  height: 982px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
+
+.dashboard-admin-eventhub,
+.pantau-dan-kelola {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  font-family: inherit;
+  display: inline-block;
+  height: 78px;
+}
+
+.dashboard-admin-eventhub {
+  top: 0;
+  font-size: inherit;
+  font-weight: 700;
+  width: 1036px;
+}
+
+.pantau-dan-kelola {
+  top: 101px;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  width: 1004px;
+}
+
+.judul {
+  position: absolute;
+  top: 204px;
+  left: 238px;
+  width: 1036px;
+  height: 179px;
+}
+
+.eventhub1,
+.profil {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 246.2px;
+}
+
+.eventhub1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40.5px;
+}
+
+.profil {
+  left: 1266px;
+}
+
+.beranda,
+.header,
+.profil {
+  position: absolute;
+  top: 0;
+  height: 40.5px;
+}
+
+.beranda {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 633px;
+  font-size: var(--font-size-xl);
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 246.2px;
+}
+
+.header {
+  left: 0;
+  width: 100%;
+}
+
+.frame-inner,
+.frame-item,
+.rectangle-icon {
+  position: absolute;
+  top: 522px;
+  left: 1px;
+  width: 617px;
+  height: 536px;
+  object-fit: cover;
+}
+
+.frame-inner,
+.rectangle-icon {
+  left: 898px;
+  object-fit: contain;
+}
+
+.rectangle-icon {
+  top: 614.5px;
+  left: 3px;
+  width: 1512px;
+  height: 489.5px;
+  object-fit: cover;
+}
+
+.header-decoration {
+  position: absolute;
+  top: 510px;
+  left: 654px;
+  border-radius: 20px;
+  background-color: var(--color-khaki);
+  width: 209px;
+  height: 70px;
+}
+
+.eventhub2 {
+  position: absolute;
+  top: 528px;
+  left: 680px;
+  font-size: 24px;
+  display: inline-block;
+  color: var(--color-black);
+  width: 158px;
+  height: 33px;
+}
+
+.homepage-admin,
+.judul-parent {
+  width: 100%;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
+
+.judul-parent {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  height: 1104px;
+  font-size: 60px;
+}
+
+.homepage-admin {
+  height: 2387px;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  letter-spacing: normal;
+  line-height: normal;
+  font-size: var(--font-size-xl);
+}
+
+@media screen and (max-width: 767px) {
   .acara-mendatang {
-    top: 0;
-    font-size: inherit;
-    font-weight: 700;
-    height: 45px;
-  }
-  .atur-dan-tambah {
-    top: 49px;
-    font-size: var(--font-size-13xl);
-    font-weight: 400;
-  }
-  .acara-mendatang-parent {
-    position: absolute;
-    top: 165px;
-    left: 268px;
-    width: 982px;
-    height: 91px;
-    font-size: 35px;
-  }
-  .frame-child {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: var(--color-khaki);
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: var(--br-3xs);
-    width: 100%;
-    height: 100%;
-    display: none;
-  }
-  .atur-acara {
-    position: absolute;
-    top: 13.1px;
-    left: 0.7px;
-    font-weight: 500;
-    display: inline-block;
-    width: 242.8px;
-    height: 31px;
-  }
-  .rectangle-parent {
-    position: absolute;
-    top: 788px;
-    left: 1078.1px;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-khaki);
-    width: 243.9px;
-    height: 57.1px;
-    font-size: var(--font-size-3xl);
-    color: var(--color-black);
-  }
-  .tabel-statistik-acara {
-    margin: 0;
-    position: absolute;
-    top: 397px;
-    left: 252px;
     font-size: var(--font-size-9xl);
-    font-weight: 700;
-    font-family: inherit;
-    display: inline-block;
-    width: 1004px;
-    height: 37px;
-  }
-  .frame-parent {
-    position: absolute;
-    top: 1135px;
-    left: 0;
-    width: 100%;
-    height: 982px;
-    text-align: center;
-    font-size: var(--font-size-xl);
-    color: var(--color-white);
-    font-family: var(--font-dm-sans);
-  }
-  .dashboard-admin-eventhub,
-  .pantau-dan-kelola {
-    margin: 0;
-    position: absolute;
-    left: 0;
-    font-family: inherit;
-    display: inline-block;
-    height: 78px;
-  }
-  .dashboard-admin-eventhub {
-    top: 0;
-    font-size: inherit;
-    font-weight: 700;
-    width: 1036px;
-  }
-  .pantau-dan-kelola {
-    top: 101px;
-    font-size: var(--font-size-13xl);
-    font-weight: 400;
-    width: 1004px;
-  }
-  .judul {
-    position: absolute;
-    top: 204px;
-    left: 238px;
-    width: 1036px;
-    height: 179px;
-  }
-  .eventhub1,
-  .profil {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-    font-size: var(--font-size-xl);
-    line-height: 24px;
-    font-weight: 700;
-    font-family: var(--font-dm-sans);
-    color: var(--color-white);
-    text-align: center;
-    display: inline-block;
-    width: 246.2px;
-  }
-  .eventhub1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 40.5px;
-  }
-  .profil {
-    left: 1266px;
-  }
-  .beranda,
-  .header,
-  .profil {
-    position: absolute;
-    top: 0;
-    height: 40.5px;
-  }
-  .beranda {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-    left: 633px;
-    font-size: var(--font-size-xl);
-    line-height: 24px;
-    font-weight: 700;
-    font-family: var(--font-dm-sans);
-    color: var(--color-white);
-    text-align: center;
-    display: inline-block;
-    width: 246.2px;
-  }
-  .header {
-    left: 0;
-    width: 100%;
-  }
-  .frame-inner,
-  .frame-item,
-  .rectangle-icon {
-    position: absolute;
-    top: 522px;
-    left: 1px;
-    width: 617px;
-    height: 536px;
-    object-fit: cover;
-  }
-  .frame-inner,
-  .rectangle-icon {
-    left: 898px;
-    object-fit: contain;
-  }
-  .rectangle-icon {
-    top: 614.5px;
-    left: 3px;
-    width: 1512px;
-    height: 489.5px;
-    object-fit: cover;
-  }
-  .header-decoration {
-    position: absolute;
-    top: 510px;
-    left: 654px;
-    border-radius: 20px;
-    background-color: var(--color-khaki);
-    width: 209px;
-    height: 70px;
-  }
-  .eventhub2 {
-    position: absolute;
-    top: 528px;
-    left: 680px;
-    font-size: 24px;
-    display: inline-block;
-    color: var(--color-black);
-    width: 158px;
-    height: 33px;
-  }
-  .homepage-admin,
-  .judul-parent {
-    width: 100%;
-    text-align: center;
-    color: var(--color-white);
-    font-family: var(--font-dm-sans);
-  }
-  .judul-parent {
-    position: absolute;
-    top: 115px;
-    left: 0;
-    height: 1104px;
-    font-size: 60px;
-  }
-  .homepage-admin {
-    height: 2387px;
-    position: relative;
-    background-color: var(--color-black);
-    overflow: hidden;
-    letter-spacing: normal;
-    line-height: normal;
-    font-size: var(--font-size-xl);
-  }
-  @media screen and (max-width: 767px) {
-    .acara-mendatang {
-      font-size: var(--font-size-9xl);
-    }
-    .atur-dan-tambah {
-      font-size: var(--font-size-7xl);
-    }
-    .dashboard-admin-eventhub {
-      font-size: 48px;
-    }
-    .pantau-dan-kelola {
-      font-size: var(--font-size-7xl);
-    }
-  }
-  @media screen and (max-width: 450px) {
-    .acara,
-    .acara-mahasiswa,
-    .aktif,
-    .aktif1,
-    .aktif2,
-    .aktif3,
-    .event-details,
-    .event-details1,
-    .event-details2,
-    .event-details3,
-    .eventhub,
-    .expo-university,
-    .jumlah-pendaftar,
-    .juni-2024,
-    .juni-20241,
-    .juni-20242,
-    .juni-20243,
-    .konser-blackpink,
-    .konser-coldplay,
-    .no,
-    .orang,
-    .orang1,
-    .orang2,
-    .orang3,
-    .status-acara,
-    .tanggal-acara {
-      font-size: var(--font-size-base);
-      line-height: 19px;
-    }
-    .acara-mendatang {
-      font-size: 21px;
-    }
-    .atur-dan-tambah {
-      font-size: var(--font-size-lgi);
-    }
-    .atur-acara {
-      font-size: 18px;
-    }
-    .tabel-statistik-acara {
-      font-size: var(--font-size-3xl);
-    }
-    .dashboard-admin-eventhub {
-      font-size: 36px;
-    }
-    .pantau-dan-kelola {
-      font-size: var(--font-size-lgi);
-    }
-    .beranda,
-    .eventhub1,
-    .profil {
-      font-size: var(--font-size-base);
-      line-height: 19px;
-    }
-    .eventhub2 {
-      font-size: var(--font-size-lgi);
-    }
   }
 
-  body {
-    margin: 0;
-    line-height: normal;
+  .atur-dan-tambah {
+    font-size: var(--font-size-7xl);
   }
-  
-  :root {
-    /* fonts */
-    --font-dm-sans: "DM Sans";
-  
-    /* font sizes */
-    --font-size-lgi: 19px;
-    --font-size-xl: 20px;
-    --font-size-base: 16px;
-    --font-size-13xl: 32px;
-    --font-size-7xl: 26px;
-    --font-size-9xl: 28px;
-    --font-size-3xl: 22px;
-  
-    /* Colors */
-    --color-black: #000;
-    --color-khaki: #ffe38f;
-    --color-white: #fff;
-  
-    /* Border radiuses */
-    --br-3xs: 10px;
+
+  .dashboard-admin-eventhub {
+    font-size: 48px;
   }
+
+  .pantau-dan-kelola {
+    font-size: var(--font-size-7xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .acara,
+  .acara-mahasiswa,
+  .aktif,
+  .aktif1,
+  .aktif2,
+  .aktif3,
+  .event-details,
+  .event-details1,
+  .event-details2,
+  .event-details3,
+  .eventhub,
+  .expo-university,
+  .jumlah-pendaftar,
+  .juni-2024,
+  .juni-20241,
+  .juni-20242,
+  .juni-20243,
+  .konser-blackpink,
+  .konser-coldplay,
+  .no,
+  .orang,
+  .orang1,
+  .orang2,
+  .orang3,
+  .status-acara,
+  .tanggal-acara {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+
+  .acara-mendatang {
+    font-size: 21px;
+  }
+
+  .atur-dan-tambah {
+    font-size: var(--font-size-lgi);
+  }
+
+  .atur-acara {
+    font-size: 18px;
+  }
+
+  .tabel-statistik-acara {
+    font-size: var(--font-size-3xl);
+  }
+
+  .dashboard-admin-eventhub {
+    font-size: 36px;
+  }
+
+  .pantau-dan-kelola {
+    font-size: var(--font-size-lgi);
+  }
+
+  .beranda,
+  .eventhub1,
+  .profil {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+
+  .eventhub2 {
+    font-size: var(--font-size-lgi);
+  }
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+  /* background-color: var(--color-black);
+  color: var(--color-white); */
+}
+
+:root {
+  /* fonts */
+  --font-dm-sans: "DM Sans";
+
+  /* font sizes */
+  --font-size-lgi: 19px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-7xl: 26px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-khaki: #ffe38f;
+  --color-white: #fff;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
+/* .event-list-decoration {
+  width: 100%;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-table th, .event-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.no {
+  width: 5%;
+}
+
+.acara, .jumlah-pendaftar, .status-acara, .tanggal-acara {
+  width: 23.75%;
+} */

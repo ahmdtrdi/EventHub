@@ -240,6 +240,8 @@
   mix-blend-mode: normal;
   white-space: nowrap;
   text-decoration: none;
+  font-family: var(--font-dm-sans);
+  font-size: medium;
 }
 .rectangle-container:hover {
   background-color: #e6c975;
